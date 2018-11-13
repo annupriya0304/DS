@@ -42,10 +42,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LinkedlIstMain.cs" />
+    <Compile Include="Node.cs" />
     <Compile Include="Problem1.cs" />
     <Compile Include="Problem2.cs" />
-    <Compile Include="problem3.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

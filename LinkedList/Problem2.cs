@@ -67,24 +67,24 @@ class Solution1
         return llist;
 
     }
-    static void Main(string[] args)
-    {
+    //static void Main(string[] args)
+    //{
 
-        SinglyLinkedList llist = new SinglyLinkedList();
+    //    SinglyLinkedList llist = new SinglyLinkedList();
 
-        int llistCount = Convert.ToInt32(Console.ReadLine());
+    //    int llistCount = Convert.ToInt32(Console.ReadLine());
 
-        for (int i = 0; i < llistCount; i++)
-        {
-            int llistItem = Convert.ToInt32(Console.ReadLine());
-            SinglyLinkedListNode llist_head = insertNodeAtHead(llist.head, llistItem);
-            llist.head = llist_head;
+    //    for (int i = 0; i < llistCount; i++)
+    //    {
+    //        int llistItem = Convert.ToInt32(Console.ReadLine());
+    //        SinglyLinkedListNode llist_head = insertNodeAtHead(llist.head, llistItem);
+    //        llist.head = llist_head;
 
-        }
+    //    }
 
 
 
-        PrintSinglyLinkedList(llist.head, "\n");
+    //    PrintSinglyLinkedList(llist.head, "\n");
       
-    }
+    //}
 }
